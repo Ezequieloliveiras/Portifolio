@@ -13,7 +13,7 @@ body {
 }
 
 .information {
-  padding: 15px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,7 +209,9 @@ body {
   text-align: left;
 }
 .profile .section1 #quadro1 .competencias .habilidades ul li {
-  width: 30px;
+  width: 150px;
+  margin-right: 0;
+  padding-bottom: 5px;
 }
 .profile .section1 #quadro1 .profile-photo {
   width: 90px;
