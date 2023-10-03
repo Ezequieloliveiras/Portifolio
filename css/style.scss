@@ -451,6 +451,11 @@ body {
 }
 
 @media (min-width: 540px ) and (max-width: 819px) {
+   
+    .container .img-slide {
+        width: 280px;
+    }
+    
     .container .section1 {
         height: 800px;
     }
