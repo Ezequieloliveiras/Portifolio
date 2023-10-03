@@ -355,7 +355,7 @@ body {
   box-shadow: 1px 1px 20px black;
 }
 
-@media (min-width: 340px) and (max-width: 374px) {
+@media (min-width: 300px) and (max-width: 374px) {
   .container .img-slide {
     width: 280px;
   }

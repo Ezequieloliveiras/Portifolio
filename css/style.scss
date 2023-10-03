@@ -357,7 +357,7 @@ body {
     box-shadow: 1px 1px 20px black;
 }
 
-@media (min-width: 340px ) and (max-width: 374px) {
+@media (min-width: 300px ) and (max-width: 374px) {
     
     .container .img-slide {
         width: 280px;
@@ -410,9 +410,11 @@ body {
     .container .section1 #quadro1 .competencias .experiencia {
         margin-left: 83px;
     }
+
     .container .section1 #quadro1 .competencias .habilidades {
         margin-right: 78px;
     }
+
     .competencias {
         display: flex;
         flex-direction: column;
@@ -436,9 +438,11 @@ body {
     .container .section1 #quadro1 .competencias .experiencia .texto-experiencia {
         width: 280px;
     }
+
     .container .section1 #quadro1 .competencias .habilidades {
         margin-right: 78px;
     }
+
     .competencias {
         display: flex;
         flex-direction: column;
@@ -544,6 +548,7 @@ body {
         .container .section1 #quadro1 {
             height: 850px;
         }
+
         .competencias {
             display: flex;
             
