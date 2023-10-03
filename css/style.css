@@ -355,7 +355,61 @@ body {
   box-shadow: 1px 1px 20px black;
 }
 
+@media (min-width: 360px) and (max-width: 374px) {
+  .container .section1 {
+    height: 900px;
+  }
+  .container .section1 #quadro1 {
+    height: 850px;
+  }
+  .container .section1 #quadro1 .competencias .experiencia .texto-experiencia {
+    width: 100px;
+  }
+  .container .section1 #quadro1 .competencias .habilidades {
+    margin-right: 78px;
+  }
+  .competencias {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 375px) {
+  .container .section1 {
+    height: 900px;
+  }
+  .container .section1 #quadro1 {
+    height: 850px;
+  }
+  .container .section1 #quadro1 .competencias .experiencia .texto-experiencia {
+    width: 280px;
+  }
+  .container .section1 #quadro1 .competencias .habilidades {
+    margin-right: 78px;
+  }
+  .competencias {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 390px) and (max-width: 393px) {
+  .container .section1 {
+    height: 900px;
+  }
+  .container .section1 #quadro1 {
+    height: 850px;
+  }
+  .container .section1 #quadro1 .competencias .experiencia .texto-experiencia {
+    width: 280px;
+  }
+  .container .section1 #quadro1 .competencias .habilidades {
+    margin-right: 78px;
+  }
+  .competencias {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 412px) and (max-width: 414px) {
   .container .section1 {
     height: 900px;
   }
@@ -368,5 +422,53 @@ body {
   }
   .container .section1 #quadro1 .competencias .experiencia .texto-experiencia {
     width: 280px;
+  }
+}
+@media (min-width: 540px) and (max-width: 819px) {
+  .container .section1 {
+    height: 800px;
+  }
+  .container .section1 #quadro1 {
+    height: 850px;
+  }
+  .container .section1 #quadro1 .competencias .experiencia .texto-experiencia {
+    width: 350px;
+  }
+  .container .section1 #quadro1 .competencias .experiencia {
+    margin-left: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 819px) {
+  .container .section1 {
+    height: 800px;
+  }
+  .container .section1 #quadro1 {
+    height: 850px;
+  }
+  .competencias {
+    display: flex;
+  }
+  .container .section1 #quadro1 .competencias .experiencia .texto-experiencia {
+    width: 350px;
+  }
+  .container .section1 #quadro1 .competencias .experiencia {
+    margin-left: 140px;
+  }
+}
+@media (min-width: 820px) and (max-width: 1000px) {
+  .container .section1 {
+    height: 800px;
+  }
+  .container .section1 #quadro1 {
+    height: 850px;
+  }
+  .competencias {
+    display: flex;
+  }
+  .container .section1 #quadro1 .competencias .experiencia .texto-experiencia {
+    width: 350px;
+  }
+  .container .section1 #quadro1 .competencias .experiencia {
+    margin-left: 140px;
   }
 }/*# sourceMappingURL=style.css.map */
