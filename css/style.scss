@@ -357,16 +357,16 @@ body {
     box-shadow: 1px 1px 20px black;
 }
 
-@media (min-width: 300px ) and (max-width: 374px) {
-    
+@media (min-width: 300px) and (max-width: 374px) {
+
     .container .img-slide {
         width: 280px;
     }
-    
+
     .container .section1 {
         height: 900px;
     }
-    
+
     .container .section1 #quadro1 {
         height: 850px;
     }
@@ -374,33 +374,45 @@ body {
     .container .section1 #quadro1 .competencias .experiencia .texto-experiencia {
         width: 100px;
     }
+
     .container .section1 #quadro1 .competencias .habilidades {
         margin-right: 78px;
     }
+
     .competencias {
         display: flex;
         flex-direction: column;
     }
 }
 
-@media (max-width: 375px ) {
+@media (max-width: 375px) {
 
     .container .img-slide {
         width: 270px;
     }
 
     .container .section1 {
-        height: 900px;
+        height: 873px;
         padding: 0px;
     }
 
     .container .section2 {
-        height: 900px;
         padding: 0px;
+        height: auto;
     }
-    
+
+    .container .section2 .trabalho,
+    .container .section2 .trabalho1,
+    .container .section2 .trabalho2,
+    .container .section2 .trabalho3,
+    .container .section2 .trabalho4,
+    .container .section2 .trabalho5 {
+        margin: 10px 10px;
+    }
+
     .container .section1 #quadro1 {
         height: 850px;
+        width: 350px;
     }
 
     .container .section1 #quadro1 .competencias .experiencia .texto-experiencia {
@@ -421,7 +433,7 @@ body {
     }
 }
 
-@media (min-width: 390px ) and (max-width: 393px ) {
+@media (min-width: 390px) and (max-width: 393px) {
 
     .container .img-slide {
         width: 280px;
@@ -430,7 +442,7 @@ body {
     .container .section1 {
         height: 900px;
     }
-    
+
     .container .section1 #quadro1 {
         height: 850px;
     }
@@ -449,7 +461,7 @@ body {
     }
 }
 
-@media (min-width: 412px ) and (max-width: 414px ) {
+@media (min-width: 412px) and (max-width: 414px) {
 
     .container .img-slide {
         width: 280px;
@@ -458,10 +470,11 @@ body {
     .container .section1 {
         height: 900px;
     }
-    
+
     .container .section1 #quadro1 {
         height: 850px;
     }
+
     .competencias {
         display: flex;
         flex-direction: column;
@@ -470,16 +483,16 @@ body {
     .container .section1 #quadro1 .competencias .experiencia .texto-experiencia {
         width: 280px;
     }
-    
-    
+
+
 }
 
-@media (min-width: 540px ) and (max-width: 819px) {
+@media (min-width: 540px) and (max-width: 819px) {
 
     .container .img-slide {
         width: 280px;
     }
-   
+
     .container .img-slide {
         width: 280px;
     }
@@ -487,7 +500,7 @@ body {
     .container .section1 {
         height: 800px;
     }
-    
+
     .container .section1 #quadro1 {
         height: 850px;
     }
@@ -499,10 +512,10 @@ body {
     .container .section1 #quadro1 .competencias .experiencia {
         margin-left: 16px;
     }
-     
+
 }
 
-@media (min-width: 768px ) and (max-width: 819px ) {
+@media (min-width: 768px) and (max-width: 819px) {
 
     .container .img-slide {
         width: 280px;
@@ -511,18 +524,19 @@ body {
     .container .section1 {
         height: 800px;
     }
-    
+
     .container .section1 #quadro1 {
         height: 850px;
     }
+
     .competencias {
         display: flex;
-        
+
     }
 
     .container .section1 #quadro1 .competencias .experiencia .texto-experiencia {
         width: 350px;
-        
+
     }
 
     .container .section1 #quadro1 .competencias .experiencia {
@@ -531,32 +545,32 @@ body {
 
 }
 
-    @media (min-width: 820px ) and (max-width: 1334px ) {
+@media (min-width: 820px) and (max-width: 1334px) {
 
-        .container .img-slide {
-            width: 280px;
-        }
+    .container .img-slide {
+        width: 280px;
+    }
 
-        .container .section1 {
-            height: 800px;
-        }
-        
-        .container .section1 #quadro1 {
-            height: 850px;
-        }
+    .container .section1 {
+        height: 800px;
+    }
 
-        .competencias {
-            display: flex;
-            
-        }
-    
-        .container .section1 #quadro1 .competencias .experiencia .texto-experiencia {
-            width: 350px;
-            
-        }
-    
-        .container .section1 #quadro1 .competencias .experiencia {
-            margin-left: 140px;
-        }
-     
+    .container .section1 #quadro1 {
+        height: 850px;
+    }
+
+    .competencias {
+        display: flex;
+
+    }
+
+    .container .section1 #quadro1 .competencias .experiencia .texto-experiencia {
+        width: 350px;
+
+    }
+
+    .container .section1 #quadro1 .competencias .experiencia {
+        margin-left: 140px;
+    }
+
 }

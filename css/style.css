@@ -381,15 +381,24 @@ body {
     width: 270px;
   }
   .container .section1 {
-    height: 900px;
+    height: 873px;
     padding: 0px;
   }
   .container .section2 {
-    height: 900px;
     padding: 0px;
+    height: auto;
+  }
+  .container .section2 .trabalho,
+  .container .section2 .trabalho1,
+  .container .section2 .trabalho2,
+  .container .section2 .trabalho3,
+  .container .section2 .trabalho4,
+  .container .section2 .trabalho5 {
+    margin: 10px 10px;
   }
   .container .section1 #quadro1 {
     height: 850px;
+    width: 350px;
   }
   .container .section1 #quadro1 .competencias .experiencia .texto-experiencia {
     width: 280px;
