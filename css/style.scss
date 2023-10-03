@@ -106,7 +106,7 @@ body {
     }
 
     .img-slide {
-        width: 300px;
+        width: 310px;
     }
 
     .manual-navigation {
@@ -357,7 +357,12 @@ body {
     box-shadow: 1px 1px 20px black;
 }
 
-@media (min-width: 360px ) and (max-width: 374px) {
+@media (min-width: 340px ) and (max-width: 374px) {
+    
+    .container .img-slide {
+        width: 280px;
+    }
+    
     .container .section1 {
         height: 900px;
     }
@@ -492,7 +497,7 @@ body {
 
 }
 
-    @media (min-width: 820px ) and (max-width: 1000px ) {
+    @media (min-width: 820px ) and (max-width: 1334px ) {
         .container .section1 {
             height: 800px;
         }
