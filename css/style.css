@@ -118,7 +118,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 90px 0px;
+  padding: 30px 0px;
   height: 100vh;
   width: 100%;
   background-color: rgba(193, 195, 196, 0.548);
@@ -198,7 +198,7 @@ body {
   background-color: rgba(240, 225, 225, 0.897);
 }
 .container .section2 {
-  padding: 90px 0px;
+  padding: 30px 0px;
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -212,7 +212,7 @@ body {
 .container .section2 .trabalho3,
 .container .section2 .trabalho4,
 .container .section2 .trabalho5 {
-  margin: 50px 10px;
+  margin: 30px 5px;
   width: 350px;
   height: 500px;
   border-radius: 10px;
@@ -349,6 +349,7 @@ body {
   align-items: center;
   height: 50px;
   font-size: 13px;
+  margin-top: 10px;
   padding: 3px;
   color: #fff;
   background-color: rgba(43, 42, 42, 0.877);
