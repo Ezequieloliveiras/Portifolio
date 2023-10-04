@@ -445,6 +445,10 @@ body {
         display: flex;
         flex-direction: column;
     }
+
+    .footer {
+        margin-top: 10px;
+    }
 }
 
 @media (min-width: 390px) and (max-width: 393px) {
@@ -486,6 +490,10 @@ body {
         display: flex;
         flex-direction: column;
     }
+
+    .footer {
+        margin-top: 10px;
+    }
 }
 
 @media (min-width: 412px) and (max-width: 414px) {
@@ -524,6 +532,9 @@ body {
         width: 280px;
     }
 
+    .footer {
+        margin-top: 10px;
+    }
 
 }
 
@@ -564,6 +575,10 @@ body {
 
     .container .section1 #quadro1 .competencias .experiencia {
         margin-left: 16px;
+    }
+
+    .footer {
+        margin-top: 10px;
     }
 
 }
@@ -609,6 +624,10 @@ body {
         margin-left: 140px;
     }
 
+    .footer {
+        margin-top: 10px;
+    }
+
 }
 
 @media (min-width: 820px) and (max-width: 1334px) {
@@ -651,6 +670,10 @@ body {
 
     .container .section1 #quadro1 .competencias .experiencia {
         margin-left: 140px;
+    }
+
+    .footer {
+        margin-top: 10px;
     }
 
 }
