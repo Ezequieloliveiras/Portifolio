@@ -12,13 +12,14 @@ body {
 .container {
   min-height: 100vh;
   overflow: hidden;
-  background-color: azure h1;
+  background-color: azure;
   background-color-max-width: 100%;
 }
 .container header {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 75px;
   background-color: rgb(22, 148, 233);
   box-shadow: 1px 1px 20px black;
 }
@@ -31,13 +32,13 @@ body {
 .container header a {
   justify-content: center;
   align-items: center;
-  font-size: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
+  font-size: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 .container header a:hover {
   color: #c9c6c6;
@@ -98,8 +99,8 @@ body {
   width: 15px;
   border: 1px solid #746c6c;
   border-radius: 5px;
-  cursor: pointer;
   transition: 1s;
+  cursor: pointer;
 }
 .container .manual-btn:not(:last-child) {
   margin-right: 40px;
